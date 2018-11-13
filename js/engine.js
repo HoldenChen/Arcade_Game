@@ -24,6 +24,7 @@ var Engine = (function(global) {
     canvas.height = 606;
     doc.body.appendChild(canvas);
 
+
     /* 这个函数是整个游戏的主入口，负责适当的调用 update / render 函数 */
     function main() {
         /* 如果你想要更平滑的动画过度就需要获取时间间隙。因为每个人的电脑处理指令的
@@ -32,6 +33,7 @@ var Engine = (function(global) {
          */
         var now = Date.now(),
             dt = (now - lastTime) / 1000.0;
+
 
         /* 调用我们的 update / render 函数， 传递事件间隙给 update 函数因为这样
          * 可以使动画更加顺畅。

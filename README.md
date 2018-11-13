@@ -1,7 +1,11 @@
+#Classic Arcade Game Clone
 
-前端纳米学位街机游戏克隆项目
-===============================
+##1、如何开始游戏
+###双击index.html 在浏览器中运行游戏(推荐 Chrome)。
 
-学生应该用这个[评审标准](https://review.udacity.com/#!/rubrics/499/view))来自我检查自己提交的代码。 确认自己写的函数要是**面向对象的** -  要么是类函数（就像函数 Player 和 Enemy）要么是类的原型链上的函数比如 Enemy.prototype.checkCollisions ， 在类函数里面或者类的原型链函数里面适当的使用关键词 'this' 来引用调用该函数的对象实例。最后保证你的**readme.md**文件要写明关于如何运行和如何玩你的街机游戏的指引。
+##2、如何操作游戏
+- 通过方向键 ：←，→，↑，↓ 控制人物上下左右移动。
+- 注意控制人物避开路上爬行的昆虫，如果不小心被碰到了，人物回回到起始位置。
 
-关于如何开始这个项目的更详细的指导，可以查阅这份[指南](https://gdgdocs.org/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true)。
+##3、怎么算赢
+- 控制人物，顺利到达河边，则赢得游戏。加油吧~
